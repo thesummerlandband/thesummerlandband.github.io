@@ -27,7 +27,7 @@ jargon. Never ask them to run commands, edit files or upload files themselves.
 ## Where things are
 
 - `index.html`: the whole page, in labeled sections (HEADER, HERO, AT A GLANCE,
-  LIVE, LISTEN, THE BAND, SET LIST, SHOWS, BOOKING, FOOTER).
+  LIVE, LISTEN, THE BAND, SHOWS, BOOKING, FOOTER).
 - `assets/css/site.css`: styles. Colors and fonts are at the top.
 - `assets/js/site.js`: audio player, photo viewer, copy-email button.
 - `assets/img/`: photos. They display in black and white automatically.

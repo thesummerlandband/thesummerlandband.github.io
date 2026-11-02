@@ -314,40 +314,6 @@ p, ul, ol, dl, dd, figure, blockquote { margin: 0; }
   font-size: var(--step-1);
 }
 
-/* ---------- Set list ---------- */
-.sets { display: grid; gap: 44px 72px; }
-@media (min-width: 820px) { .sets { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-.set h3 { font-style: italic; font-size: var(--step-2); padding-bottom: 12px; border-bottom: 1px solid var(--ink); }
-.songs { list-style: none; padding: 0; counter-reset: song; }
-.songs li {
-  counter-increment: song;
-  display: grid;
-  grid-template-columns: 2.2em minmax(0, 1fr) 2.6em;
-  gap: 12px;
-  align-items: baseline;
-  padding: 11px 0;
-  border-bottom: 1px solid var(--rule);
-}
-.songs li::before {
-  content: counter(song, decimal-leading-zero);
-  font-size: var(--step--1);
-  letter-spacing: .06em;
-  color: var(--ink-soft);
-  font-variant-numeric: tabular-nums;
-}
-.song { min-width: 0; }
-.key { font-family: var(--display); font-style: italic; font-size: 1.0625rem; color: var(--sun); text-align: right; }
-.rotation {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 6px 22px;
-  margin-top: 44px;
-  font-family: var(--display);
-  font-size: var(--step-1);
-}
-.rotation .label { margin-right: 6px; }
-
 /* ---------- Shows ---------- */
 .shows-grid { display: grid; gap: 8px; }
 @media (min-width: 900px) {

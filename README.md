@@ -6,7 +6,7 @@ The band's one-page site and press kit, published free with GitHub Pages at
 ## Changing the site
 
 Everything you see is in `index.html`, in clearly labeled sections (HEADER, HERO,
-AT A GLANCE, LIVE, LISTEN, THE BAND, SET LIST, SHOWS, BOOKING, FOOTER). Colors and
+AT A GLANCE, LIVE, LISTEN, THE BAND, SHOWS, BOOKING, FOOTER). Colors and
 fonts are at the top of `assets/css/site.css`.
 
 The easiest way to make a change is to ask an AI assistant with access to this
@@ -37,8 +37,6 @@ change, then click **Commit changes**. The live site updates within a few minute
 - Booking email and phone: the same bio sheet. Please confirm they are current.
 - Show history: the band's Instagram posts, the Draughtsmen Aleworks calendar and
   Instagram, and the band's Facebook event for May 16, 2025.
-- Set list: the band's set list for Buena Onda on Sept 12, 2026. Shorthand titles
-  were spelled out (for example "Saint James" became "St. James Infirmary").
 - Videos and audio: the two live reels on the band's Facebook page.
 - Member portraits: stills from the night-set video, matched to each member by
   instrument. Replace them with proper portraits when available.
