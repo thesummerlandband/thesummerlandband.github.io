@@ -15,11 +15,14 @@ jargon. Never ask them to run commands, edit files or upload files themselves.
    and layout unless they ask to change them.
 2. Keep facts accurate. Never invent show dates, quotes, testimonials or bio
    details. If something is unclear, ask before changing it.
-3. Commit, then open a pull request with a short plain-English title. Merge it
-   into `main` yourself if you can. If you can't, tell them: "Open the pull
-   request link and click **Merge pull request**, then **Confirm merge**. The
-   site updates in about a minute."
-4. Finish with one or two sentences describing what changed on the site.
+3. Before pushing, merge the latest `main` into your branch so nothing
+   conflicts. Then commit and push to your branch (any branch except `main`).
+4. Publishing is automatic: `.github/workflows/publish.yml` merges every pushed
+   branch into `main`, and the live site updates within about two minutes.
+   Never ask them to open or merge a pull request. If your tool only sends
+   changes through a button (for example ChatGPT's **Create PR**), tell them to
+   click it and that the site updates by itself a couple of minutes later.
+5. Finish with one or two sentences describing what changed on the site.
 
 ## Where things are
 
